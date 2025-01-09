@@ -1,21 +1,21 @@
-# 🌱 **basil** – The Open-Source AI Grammar Correction Tool  
+# 🌱 **basil** – open-source ai grammar correction tool  
 
-### 📝 **What is Mango?**
-Mango is a lightweight, terminal-based macOS tool that uses **OpenAI** and **Anthropic** models to provide **real-time grammar correction**. It runs as a **background process**, triggered by a customizable **keyboard shortcut** to correct highlighted text on the fly.
-
----
-
-### 🚀 **Features**
-- 📋 **Clipboard Monitoring** – Automatically detects and processes copied text.
-- 🤖 **AI Model Options** – Choose between OpenAI's GPT-3.5 and Anthropic's Claude.
-- 🔧 **Configurable Shortcut** – Set your own hotkey to trigger grammar correction.
-- 💻 **Background Process** – Runs silently in the background, no terminal needed after setup.
-- 🔄 **Auto-Start on Boot** – Launches automatically when you log in to your macOS.
+### 📝 **what is basil?**  
+basil is a simple, terminal-based macos tool for real-time grammar correction using openai and anthropic models. it runs quietly in the background, triggered by a customizable shortcut. just highlight your text, press your hotkey, and basil handles the rest.
 
 ---
 
-### 🛠️ **Installation**
-1. **Clone the Repository**  
+### 🚀 **features**  
+- **clipboard monitoring** – detects and processes copied text automatically  
+- **ai model options** – choose between openai’s gpt-3.5 and anthropic’s claude  
+- **customizable shortcut** – set your own hotkey to trigger corrections  
+- **background process** – no need to keep the terminal open  
+- **auto-start on boot** – basil runs automatically when you log in  
+
+---
+
+### 🛠️ **installation**  
+1. **clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/mango.git
-   cd mango
+   git clone https://github.com/yourusername/basil.git
+   cd basil

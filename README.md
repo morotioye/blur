@@ -1,7 +1,6 @@
 # **blur** – open-source ai grammar correction tool  
 
-### 📝 **what is basil?**  
-basil is a simple, terminal-based macos tool for real-time grammar correction using openai and anthropic models. it runs quietly in the background, triggered by a customizable shortcut. just highlight your text, press your hotkey, and basil handles the rest.
+basil is a simple, terminal-based macos tool for real-time grammar correction using openai and anthropic models. it runs quietly in the background, triggered by a customizable shortcut. just highlight your text, press your hotkey, and blur handles the rest.
 
 ---
 

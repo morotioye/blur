@@ -6,7 +6,7 @@ basil is a simple, terminal-based macos tool for real-time grammar correction us
 
 ### 🚀 **features**  
 - **clipboard monitoring** – detects and processes copied text automatically  
-- **ai model options** – choose between openai’s gpt-3.5 and anthropic’s claude  
+- **ai model options** – choose between openai's gpt-3.5 and anthropic's claude  
 - **customizable shortcut** – set your own hotkey to trigger corrections  
 - **background process** – no need to keep the terminal open  
 - **auto-start on boot** – basil runs automatically when you log in  
@@ -18,3 +18,28 @@ basil is a simple, terminal-based macos tool for real-time grammar correction us
    ```bash
    git clone https://github.com/yourusername/basil.git
    cd basil
+   ```
+
+2. **set up virtual environment**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   ```
+
+3. **install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### 💻 **development**
+1. **run the application**
+   ```bash
+   python blur.py
+   ```
+
+2. **usage**
+   - Press `⌘ + Shift + C` to display the currently selected text
+   - Press `Ctrl + C` in the terminal to exit
+
+### 🔄 **current status**
+- Phase 1: Basic clipboard monitoring and shortcut detection [In Progress]
